@@ -1,0 +1,11 @@
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+}
+header{
+    background: rgba(229, 84, 115, 0.10);
+}
+header > div{
+    display: flex;
+}
