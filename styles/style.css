@@ -46,7 +46,7 @@ header > div{
     padding-bottom: 0px;
 }
 
-/*styles for main Fearured*/
+/*styles for main Featured*/
 .featured-image h3{
     text-decoration: underline;
 }
@@ -129,14 +129,14 @@ header > div{
 
 /* Support section*/
 .support{
-height: 200px;
-border-radius: 8px;
-background: rgba(39, 39, 39, 0.05);
-margin: 100px;
-display: flex;
-justify-content: space-evenly;
-padding-top: 86px;
-text-align: center;
+    height: 200px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 86px;
+    text-align: center;
 }
 
 .support p{
@@ -305,4 +305,14 @@ line-height: 30px;
 }
 .footer-section span{
     color: #FFF;
+}
+/* youtube */
+.youtube{
+    text-align: center;
+}
+.youtube > h1{
+    color: #272727;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
 }
