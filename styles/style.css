@@ -45,3 +45,14 @@ header > div{
     width: 635px;
     height: 800px;
 }
+.featured-flowers{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+} 
+.feature-images{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
