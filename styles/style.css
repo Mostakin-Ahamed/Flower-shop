@@ -7,7 +7,6 @@ body{
 
 header > div{
     display: flex;
-    width: 100%;
     justify-content: space-around;
     align-items: center;
     padding-left: 150px;
@@ -226,7 +225,6 @@ header > div{
     background-repeat: no-repeat;
     text-align: center;
     padding-top: 100px;
-    /* padding-bottom: 80px; */
     margin:50px 240px;
     height: 449px;
     border-radius: 8px;
