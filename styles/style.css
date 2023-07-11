@@ -212,6 +212,7 @@ header > div{
     justify-content: center;
     gap: 10px; 
     margin: 50px 200px;
+    margin-bottom: 150px;
 }
 
 .instagram-images img{
@@ -243,12 +244,12 @@ header > div{
 
 .info p{
         color: rgba(39, 39, 39, 0.60);
-text-align: center;
-font-family: Lato;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px;
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
 }
 
 .info input{
