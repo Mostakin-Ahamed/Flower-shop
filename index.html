@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>A Flower Shop</title>
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&display=swap" rel="stylesheet">
@@ -13,12 +14,8 @@
     <header>
         <div >
             <div class="header-part">
-                <h1>Let's make</h1>
-                <h1> beautiful flowers a </h1>
-                <h1>part of your life.</h1>
-                <p>It is a long established fact that a reader will be distracted by the readable 
-                    content of a page when looking at its layout. The point of using Lorem Ipsum is 
-                    that it has a more-or-less normal distribution of letters</p>
+                <h1 class="title">Let's make<br> beautiful flowers a <br> part of your life.</h1>
+                <p class="peragraph">It is a long established fact that a reader will be distracted by the readable <br> content of a page when looking at its layout. The point of using Lorem Ipsum is<br> that it has a more-or-less normal distribution of letters.</p>
                 <button class="btn-primary">Shop Now</button>
             </div>
             <div class="header-part">
@@ -27,74 +24,98 @@
         </div>
 
     </header>
+
+
     <main>
-        <section >
-            <div class="feature-flowers">
-                <h3>Our Featured Flowers</h3>
-                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-            </div>
-            <div class="feature-images">
-               <div>
-                <img src="images/pngwing 6.png" alt="">
-               </div>
-               <div>
-                <img src="images/pngwing 5.png" alt="">
-               </div>
-               <div><img src="images/pngwing 7.png" alt=""></div>
-            </div>
-        
-        </section>
-        <section>
+        <!-- featured part -->
+
+        <div class="featured">
+            <h1 id="featured-title">Our Featured Flowers</h3>
+                <p class="featured-paragraph">It is a long established fact that a reader will be distracted by the readable <br>content of a page when looking at its layout.</p>
+        </div>
+
+        <!-- featured image part -->
+
+        <div class="featured-image">
             <div>
+                <div id="category-box1">
+                    <img class="category-image1" src="images/pngwing 6.png" alt="">
+            </div>
+            <h3>Pink Flower Tree</h3>
+            </div>
+            <div>
+                <div id="category-box2">
+                    <img class="category-image1" src="images/pngwing 5.png" alt="">
+            </div>
+            <h3>Pink Flower Tree</h3>
+            </div>
+            <div>
+                <div id="category-box3">
+                    <img class="category-image1" src="images/pngwing 7.png" alt="">
+            </div>
+            <h3>Pink Flower Tree</h3>
+            </div>  
+        </div>
+
+        <!-- Extra part -->
+
+        <div class="support">
+            <div class="support-type">
                 <img src="images/Group 57.png" alt="">
-                <p>Same Day Delivery. Click & Collect.</p>
+            <p>Same Day Delivery. Click & Collect.</p>
             </div>
-            <div>
+            <div class="support-type">
                 <img src="images/Group 58.png" alt="">
-                <p>Fresh Flowers. Local Growers.</p>
+            <p>Fresh Flowers. Local Growers.</p>
             </div>
-            <div>
+            <div class="support-type">
                 <img src="images/Group 59.png" alt="">
-                <p>24/7 Free Support.</p>
+            <p>24/7 Free Support.</p>
             </div>
-        </section>
+        </div>
 
-        <!-- hot deal section -->
-        <section>
-            <div>
-                <h1>Hot Deal ! Sale Up To 25% <span>off</span></h1>
-                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                <button class="btn-primary">Sign up</button>
-            </div>
-            <div>
-                <img src="images/pngwing 8.png" alt="">
-            </div>
-        </section>
-        <!-- instagram part -->
-        <section>
+        <!-- discount section  -->
 
-            <div>
-                <h3>Instagram</h3>
-                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+        <div class="offer">
+            <div class="offer-section-text">
+                <h1 class="offer-title">Hot Deal ! Sale Up To 25% <span>Off</span></h1>
+                <p>It is a long established fact that a reader will be distracted by the readable<br>content of a page when looking at its layout.</p>
+                <button class="btn-primary">Sign Up</button>
             </div>
-            <div>
-                <img src="images/Flower 01.png" alt="">
-                <img src="images/Rectangle 4.png" alt="">
-                <img src="images/Rectangle 5.png" alt="">
-                <img src="images/Rectangle 6.png" alt="">
+
+            <div class="offer-section-image">
+                <img class="img" src="images/pngwing 8.png">
             </div>
-        </section>
-        <!-- get the latest deals part -->
-        <section>
+        </div>
+
+        <!-- instagram section -->
+        <div class="featured">
+            <h1 id="featured-title">Instagram</h3>
+                <p class="featured-peragraph">It is a long established fact that a reader will be distracted by the readable <br> content of a page when looking at its layout.</p>
+        </div>
+        <div class="instagram-images">
+            <img src="images/Flower 01.png" alt="">
+            <img src="images/Rectangle 4.png" alt="">
+            <img src="images/Rectangle 5.png" alt="">
+            <img src="images/Rectangle 6.png" alt="">
+        </div>
+
+        <!-- information section  -->
+        <div class="info">
             <h1>Get The Latest Deals</h1>
             <p>$30 coupon for first shopping</p>
-            <input placeholder="Enter your email here...." type="email" name="" id="">
+            <input type="email" placeholder="Enter your email here....">
             <button class="btn-primary">Subscribe</button>
-        </section>
+        </div>
     </main>
+
     <footer>
-        <h1><span>Flower</span><span>Shop</span></h1>
-        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+        <div class="footer-section">
+            <h1>Flower<span>Shop</span></h3>
+                <p class="featured-peragraph">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+
+                <small>@2020-2023, FlowerShop.com. All rights reserved. </small>
+        </div>
     </footer>
 </body>
 </html>
