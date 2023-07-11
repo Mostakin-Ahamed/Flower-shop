@@ -316,3 +316,7 @@ line-height: 30px;
     font-size: 30px;
     font-weight: 800;
 }
+.youtube-video{
+    display: flex;
+    justify-content: center;
+}
